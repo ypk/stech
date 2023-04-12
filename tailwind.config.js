@@ -2,8 +2,7 @@ const colors = require('tailwindcss/colors')
 const scrollbar = require("tailwind-scrollbar");
 
 module.exports = {
-  purge: ["./src/**/*.html", "./src/**/*.jsx"],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.html", "./src/**/*.jsx"],
   theme: {
     extend: {
       fontFamily: {

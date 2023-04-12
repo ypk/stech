@@ -23,10 +23,13 @@ const GamesList = ({ content }) => {
 };
 
 GamesList.propTypes = {
-  content: PropTypes.shape({
-    title: PropTypes.string,
-    src: PropTypes.string,
-  }),
+  content: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      src: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
+
 
 export default GamesList;

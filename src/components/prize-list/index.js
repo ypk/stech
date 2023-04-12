@@ -39,11 +39,13 @@ const PrizeList = ({ content, refreshHandler}) => {
 };
 
 PrizeList.propTypes = {
-  content: PropTypes.shape({
-    title: PropTypes.string,
-    listItem: PropTypes.string,
-  }),
+  content: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      total: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired
+    })
+  ).isRequired,
+  refreshHandler: PropTypes.func.isRequired,
 };
-
 
 export default PrizeList;

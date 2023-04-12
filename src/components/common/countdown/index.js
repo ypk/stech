@@ -26,7 +26,7 @@ const Countdown = () => {
     return () => {
       clearInterval(interval);
     };
-  },[]);
+  });
 
   const { day, hour, minute } = { ...countDownState };
   return (

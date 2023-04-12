@@ -16,9 +16,9 @@ const Stats = ({ title, value, children }) => {
 };
 
 Stats.propTypes = {
-  title: PropTypes.string,
-  value: PropTypes.string,
-  children: PropTypes.object,
+  title: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  children: PropTypes.node,
 };
 
 export default Stats;

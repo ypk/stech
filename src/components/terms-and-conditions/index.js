@@ -46,12 +46,13 @@ const TermsAndConditions = () => {
   );
 };
 
-
 TermsAndConditions.propTypes = {
-  terms: PropTypes.shape({
-    id: PropTypes.number,
-    message: PropTypes.string,
-  }),
+  terms: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      message: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default TermsAndConditions;
