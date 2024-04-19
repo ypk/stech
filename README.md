@@ -4,9 +4,9 @@ Hi 👋 and welcome to the frontend tech challenge. We'd like you to create a si
 ## Page Design
 Design mockups are provided through Zeplin. Don't worry if you've never used the service before, it's pretty easy to navigate and you can sign up for free. Once you've done so you should be able to see both images when you use the links below ⬇
 
-- [Mobile Layout](https://zpl.io/awKqRBd)
-- [Desktop Layout](https://zpl.io/bWO4ovx)
-- [Public Link to Zeplin Images](https://scene.zeplin.io/project/5f1eee9f5d939339d92fdac1)
+- ~[Mobile Layout](https://zpl.io/awKqRBd)~ **☠ DEAD LINK ☠** [Alternative Link](https://github.com/ypk/stech/blob/b907375673e770bd60a62e769ad66795e6a9a1e2/Mobile%20-%20Tournaments%20-%20Detail.png)
+- ~[Desktop Layout](https://zpl.io/bWO4ovx)~ **☠ DEAD LINK ☠** [Alternative Link](https://github.com/ypk/stech/blob/b907375673e770bd60a62e769ad66795e6a9a1e2/Desktop%20-%20Tournaments%20-%20Detail.png)
+- ~[Public Link to Zeplin Images](https://scene.zeplin.io/project/5f1eee9f5d939339d92fdac1)~ **☠ DEAD LINK ☠** 
 
 PS: if you'd prefer not to use Zeplin, both images can be found in the root folder of the repository. We'd recommend Zeplin though, as it will provide you with a lot more information in terms of layout dimensions, design choices, and CSS.
 
